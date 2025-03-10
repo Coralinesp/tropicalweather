@@ -1,0 +1,105 @@
+.main-home{
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Titulo {
+    font-size: 3rem; 
+    margin: 0;
+    font-weight: bold; 
+    background: linear-gradient(to right, #60a5fa, #64b3dd); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+  }
+.busqueda{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.barrabusqueda{
+    background-color:  #1e1e4e;
+    border: 1px solid rgb(95, 101, 171);
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+}
+.barrabusqueda::placeholder {
+    color: #a2a2ba;
+    padding-left: 30px;
+  }
+.contenido-provincias{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+    width: 100%;
+}
+.weather-info p{
+    margin: 0;
+}
+.provincia-card{
+    width: 400px;
+    height: 250px;
+    background-color: #1e1e4e;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.provincia-card h3{
+    color: #60a5fa;
+    margin: 0;
+}
+.provincia-card p{
+    color: #a2a2ba;
+}
+.card-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.region{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(96, 165, 250, 0.1);
+}
+.region p{
+    font-size: 0.8rem;
+    margin: 0;
+    color: #60a5fa;
+}
+.Temperatura{
+    color: white !important;
+    font-size: 2rem;
+}
+.clima-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.weather-icon{
+    font-size: 3rem;
+}
+.datos-clima{
+    display: flex;
+    justify-content: space-between;
+}
+.soleado, .soleado{
+    color: #ffbc37;
+}
+.nuboso, .nubes{
+    color: #b2bdcc;
+}
+.lluvia, .ligera{
+    color: #60a5fa;
+}
+.tormenta{
+    color: #f65f35;
+}

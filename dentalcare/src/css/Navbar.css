@@ -1,0 +1,33 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar h1{
+    color: #60a5fa;
+    margin: 0;
+    font-size: 2rem;
+}
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.navbar-icon{
+    color: #60a5fa;
+    font-size: 5rem;
+}
+.navbar-links{
+    display: flex;
+    gap: 5%;
+    width: 25%;
+}
+.navbar-links a{
+    color:  #60a5fa;
+}
